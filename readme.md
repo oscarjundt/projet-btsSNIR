@@ -9,5 +9,5 @@ le dossier <strong>PartieMoblie</strong> contient le projet android studio, vous
 dans le code de l'application mobile dans le mainActivity, il faut changer la variable domaine par le chemin de votre dossier ou est stoker l'api rest
 <br>
 
-le dossier <strong>PartiePHP</strong>contient l'api rest, vous devez l'eberger
+le dossier <strong>PartiePHP</strong> contient l'api rest, vous devez l'eberger
 </p>
