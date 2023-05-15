@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/PageLogin">
+
+    <fragment
+        android:id="@+id/PageLogin"
+        android:name="com.example.vrai_appli.PageLogin"
+        android:label="login"
+        tools:layout="@layout/page_login" />
+    <fragment
+        android:id="@+id/PageMenu"
+        android:name="com.example.vrai_appli.PageMenu"
+        android:label="menu"
+        tools:layout="@layout/page_menu">
+
+        <action
+            android:id="@+id/action_SecondFragment_to_FirstFragment"
+            app:destination="@id/PageLogin" />
+    </fragment>
+    <fragment
+        android:id="@+id/PageHistorique"
+        android:name="com.example.vrai_appli.PageHistorique"
+        android:label="Partie Historique"
+        tools:layout="@layout/page_historique">
+        <action
+            android:id="@+id/action_PageHistorique_to_PageMenu"
+            app:destination="@id/PageMenu" />
+    </fragment>
+    <fragment
+        android:id="@+id/PageRecherche"
+        android:name="com.example.vrai_appli.PageRecherche"
+        android:label="Partie recherche"
+        tools:layout="@layout/page_recherche">
+        <action
+            android:id="@+id/action_PageRecherche_to_PageMenu"
+            app:destination="@id/PageMenu" />
+    </fragment>
+    <fragment
+        android:id="@+id/PageMap"
+        android:name="com.example.vrai_appli.PageMap"
+        android:label="Partie Map"
+        tools:layout="@layout/page_map">
+        <action
+            android:id="@+id/action_PageMap_to_PageMenu"
+            app:destination="@id/PageMenu" />
+    </fragment>
+    <fragment
+        android:id="@+id/PageEolienne"
+        android:name="com.example.vrai_appli.PageEolienne"
+        android:label="Partie Eolienne"
+        tools:layout="@layout/PageEolienne">
+        <action
+            android:id="@+id/action_PageEolienne_to_PageMenu"
+            app:destination="@id/PageMenu" />
+    </fragment>
+</navigation>

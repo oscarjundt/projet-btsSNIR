@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/oscar/AndroidStudioProjects/vrai_appli/app/src/main/res/layout/PageEolienne.xml" value="0.12360688956433637" />
+        <entry key="..\:/Users/oscar/AndroidStudioProjects/vrai_appli/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/oscar/AndroidStudioProjects/vrai_appli/app/src/main/res/layout/blank_fragment.xml" value="0.17617753623188406" />
+        <entry key="..\:/Users/oscar/AndroidStudioProjects/vrai_appli/app/src/main/res/layout/content_main.xml" value="0.17617753623188406" />
+        <entry key="..\:/Users/oscar/AndroidStudioProjects/vrai_appli/app/src/main/res/layout/fragment_blank.xml" value="0.17617753623188406" />
+        <entry key="..\:/Users/oscar/AndroidStudioProjects/vrai_appli/app/src/main/res/layout/fragment_blank2.xml" value="0.17617753623188406" />
+        <entry key="..\:/Users/oscar/AndroidStudioProjects/vrai_appli/app/src/main/res/layout/fragment_first.xml" value="0.16" />
+        <entry key="..\:/Users/oscar/AndroidStudioProjects/vrai_appli/app/src/main/res/layout/fragment_page_map.xml" value="0.1" />
+        <entry key="..\:/Users/oscar/AndroidStudioProjects/vrai_appli/app/src/main/res/layout/fragment_second.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/oscar/AndroidStudioProjects/vrai_appli/app/src/main/res/layout/page_eolienne.xml" value="0.1" />
+        <entry key="..\:/Users/oscar/AndroidStudioProjects/vrai_appli/app/src/main/res/layout/page_historique.xml" value="0.264" />
+        <entry key="..\:/Users/oscar/AndroidStudioProjects/vrai_appli/app/src/main/res/layout/page_login.xml" value="0.11302083333333333" />
+        <entry key="..\:/Users/oscar/AndroidStudioProjects/vrai_appli/app/src/main/res/layout/page_menu.xml" value="0.2" />
+        <entry key="..\:/Users/oscar/AndroidStudioProjects/vrai_appli/app/src/main/res/layout/page_recherche.xml" value="0.11197916666666667" />
+        <entry key="..\:/Users/oscar/AndroidStudioProjects/vrai_appli/app/src/main/res/layout/troisfrag.xml" value="0.17617753623188406" />
+        <entry key="..\:/Users/oscar/AndroidStudioProjects/vrai_appli/app/src/main/res/menu/menu_main.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/oscar/AndroidStudioProjects/vrai_appli/app/src/main/res/xml/network_security_config.xml" value="0.11302083333333333" />
+      </map>
+    </option>
+  </component>
+  <component name="JavadocGenerationManager">
+    <option name="OUTPUT_DIRECTORY" value="$USER_HOME$/Documents" />
+    <option name="OPTION_SCOPE" value="private" />
+    <option name="OPTION_DOCUMENT_TAG_USE" value="true" />
+    <option name="OPTION_DOCUMENT_TAG_AUTHOR" value="true" />
+    <option name="OPTION_DOCUMENT_TAG_VERSION" value="true" />
+    <option name="OTHER_OPTIONS" value="-sourcepath C:\Users\oscar\AppData\Local\Android\Sdk\platforms\android-32\android.jar" />
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
