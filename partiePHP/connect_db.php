@@ -1,9 +1,9 @@
 <?php
-$SQL_DSN   = 'mysql:host=localhost;dbname=ryhcmjpm_test';
+$SQL_DSN   = 'mysql:host=localhost;dbname=<nom>';
 //identifiant
-$SQL_LOGIN = 'ryhcmjpm_pi';
+$SQL_LOGIN = '<username>';
 //mot passe
-$SQL_PASS  = '_7p5u57ct,u_8Bp:uP';
+$SQL_PASS  = '<password>';
                                     
 try {
     //creation d'une connection
