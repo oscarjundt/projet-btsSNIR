@@ -44,6 +44,7 @@ public class PageEolienne extends Fragment {
     public void onViewCreated(@NonNull View view, Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
         //on recupere les donnee du MainActivity la on recupere le token(identifiant)
+        binding.TextViewMessageInconnu.setVisibility(View.INVISIBLE);
         MainActivity activity = (MainActivity) getActivity();
         String token = activity.getToken();
         this.ip = activity.getDomaine();

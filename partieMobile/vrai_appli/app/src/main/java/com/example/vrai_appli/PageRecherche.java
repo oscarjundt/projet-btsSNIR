@@ -57,6 +57,7 @@ public class PageRecherche extends Fragment {
      */
     public void onViewCreated(@NonNull View view, Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
+        binding.TextViewMessageInconnu.setVisibility(View.INVISIBLE);
         //on recupere les donnee qui sont dans le MainActivity le token et l'adresse du serveur
         MainActivity activity = (MainActivity) getActivity();
         String token = activity.getToken();

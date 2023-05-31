@@ -70,6 +70,7 @@ public class PageHistorique extends Fragment {
      */
     public void onViewCreated(@NonNull View view, Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
+        binding.TextViewMessageInconnu.setVisibility(View.INVISIBLE);
         //on recupere les donnee du MainActivity, le token(identifiant)
         MainActivity activity = (MainActivity) getActivity();
         String token = activity.getToken();
