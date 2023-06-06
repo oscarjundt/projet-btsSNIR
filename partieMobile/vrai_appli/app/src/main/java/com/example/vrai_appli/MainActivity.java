@@ -28,8 +28,8 @@ public class MainActivity extends AppCompatActivity {
     private static final int REQUEST_PERMISSIONS_REQUEST_CODE = 1;
     private AppBarConfiguration appBarConfiguration;
     private String Token;
-    //private String domaine = "http://172.17.50.132/ihm-web/appi";
-    private String domaine = "https://projet-bts.go.yj.fr/appi";
+    private String domaine = "http://172.17.50.132/ihm-web/appi";
+    //private String domaine = "https://projet-bts.go.yj.fr/appi";
     //private String domaine = "http://54.89.253.51/appi";
     //private String domaine = "http://192.168.1.14:8000/projet_carla/appi";
     private String[] header = {"ideolienne","Dvent","Vvent","dateP","timeP"};

@@ -11,6 +11,8 @@ import android.os.AsyncTask;
 import android.os.Build;
 import android.view.View;
 import android.widget.EditText;
+import android.widget.LinearLayout;
+import android.widget.TableLayout;
 import android.widget.TextView;
 
 import androidx.annotation.RequiresApi;
@@ -20,6 +22,7 @@ import androidx.fragment.app.Fragment;
 import androidx.navigation.fragment.NavHostFragment;
 
 import org.json.JSONException;
+import org.osmdroid.util.GeoPoint;
 
 /**
  * C'est une classe qui permet de faire des requêtes asynchrones à un serveur et de traiter les reponse en fonction du choix
@@ -316,6 +319,10 @@ public class Traitement extends AsyncTask<String,String,String>{
 
         }
         else if(data.equals("[]")){
+            TableLayout tab =  page.getActivity().findViewById(R.id.tableaux);
+            LinearLayout graph = page.getActivity().findViewById(R.id.champ_Graph);
+            tab.removeAllViews();
+            graph.removeAllViews();
             TextView message_inconnu = this.page.getActivity().findViewById(R.id.TextViewMessageInconnu);
             message_inconnu.setText("aucune donnee");
             message_inconnu.setVisibility(View.VISIBLE);

@@ -66,6 +66,10 @@ public class PageRecherche extends Fragment {
         binding.ButtonDeRecherche.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                //System.out.println(binding.TextViewMessageInconnu.getVisibility());
+                if(binding.TextViewMessageInconnu.getVisibility()==View.VISIBLE) {
+                    binding.TextViewMessageInconnu.setVisibility(View.INVISIBLE);
+                }
                 //on recupere la date qui a etait inserer par l'utilisateur
                 String valeurDate = binding.ChampDate.getText().toString();
                 //on recupere dans une variable l'url de l'api rest avec notament des parametre get
