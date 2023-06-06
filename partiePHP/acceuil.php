@@ -17,7 +17,7 @@ if(isset($_GET['token']) && !empty($_GET['token']) && isset($_GET['ge']) && !emp
     if(count($user)>0){
          if($_GET['ge']=="meteo"){
                 //on prepare une requette sql
-                $requ=$pdo->prepare("select * from data_meteo");
+                $requ=$pdo->prepare("select * from data_meteo order by dateP desc");
                 //on execute la requette sql
                 $requ->execute();
                 //on recupere les donnee dans une liste

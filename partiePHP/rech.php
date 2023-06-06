@@ -15,7 +15,7 @@ if(isset($_GET['token']) && !empty($_GET['token']) && isset($_GET['ge']) && !emp
     if(count($user)>0){
          $date = $_GET['ge'];
             //on prepare une requette sql pour afficher les donnee en fonction de la date donne par l'utilisateur
-            $request = $pdo->prepare("select * from data_meteo where dateP like '".$date."%'");
+            $request = $pdo->prepare("select * from data_meteo where dateP like '".$date."%' order by dateP desc");
             //on execute la requette sql
             $request->execute();
             //on met les donne recupere dans une liste

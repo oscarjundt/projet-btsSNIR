@@ -1,9 +1,9 @@
 <?php
-$SQL_DSN   = 'mysql:host=localhost;dbname=<nom>';
+$SQL_DSN   = 'mysql:host=localhost;dbname=donnee';
 //identifiant
-$SQL_LOGIN = '<username>';
+$SQL_LOGIN = 'root';
 //mot passe
-$SQL_PASS  = '<password>';
+$SQL_PASS  = '';
                                     
 try {
     //creation d'une connection
