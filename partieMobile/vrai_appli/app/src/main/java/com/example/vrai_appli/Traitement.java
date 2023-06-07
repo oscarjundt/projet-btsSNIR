@@ -131,23 +131,27 @@ public class Traitement extends AsyncTask<String,String,String>{
         // est "history", elle appelle la méthode "Affichage" avec les paramètres "data" et "graphi".
         // Si la valeur de "action" est "recherche", elle appelle la méthode "Affichage" avec les
         // paramètres "data" et une chaîne vide. Si la valeur de "action" est
-        if(this.action=="login"){
+        if(this.action.equals("login")){
             Login(data);
         }
-        else if(this.action.equals("history")){
+        else if(this.action.equals("history") && !data.equals("timeout")){
             Affichage(data,"graphi");
         }
-        else if(this.action.equals("recherche")){
+        else if(this.action.equals("recherche") && !data.equals("timeout")){
             Affichage(data,"");
         }
-        else if(this.action.equals("map")){
+        else if(this.action.equals("map") && !data.equals("timeout")){
             map(data);
         }
-        else if(this.action.equals("map_rech")){
+        else if(this.action.equals("map_rech") && !data.equals("timeout")){
             MapRech(data);
         }
-        else if(this.action.equals("eolienne")){
+        else if(this.action.equals("eolienne") && !data.equals("timeout")){
             EolienneAffiche(data);
+        }
+        else if(!this.action.equals("login") && data.equals("timeout")){
+            NavHostFragment.findNavController(this.page)
+                    .navigate(R.id.PageLogin);
         }
     }
     /**
